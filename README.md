@@ -12,10 +12,8 @@
 # The author is Nikita Kopanev
 
 
-from tkinter import Tk, Canvas
-from random import randint
-class SnakeGame:
-
+    from tkinter import Tk, Canvas
+    from random import randint
     def __init__(self, canvas):
         self.canvas = canvas
         self.cell_size = 10  # Размер одной ячейки (пикселей)
