@@ -11,6 +11,8 @@
 
 # The author is Nikita Kopanev
 
+    class SnakeGame:
+        """Игра «Змейка» на tkinter."""
 
     from tkinter import Tk, Canvas
     from random import randint
