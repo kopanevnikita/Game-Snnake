@@ -11,13 +11,10 @@
 
 # The author is Nikita Kopanev
 
+
 from tkinter import Tk, Canvas
 from random import randint
-
-
-
 class SnakeGame:
-    """Игра «Змейка» на tkinter."""
 
     def __init__(self, canvas):
         self.canvas = canvas
@@ -119,9 +116,6 @@ class SnakeGame:
         # Планируем следующий кадр через 100 мс
         self.canvas.after(100, self._game_loop)
 
-
-
-# Создание окна и запуск игры
 root = Tk()
 root.title("Змейка")
 
