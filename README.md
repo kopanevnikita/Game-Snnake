@@ -114,12 +114,12 @@
         # Планируем следующий кадр через 100 мс
         self.canvas.after(100, self._game_loop)
 
-root = Tk()
-root.title("Змейка")
+    root = Tk()
+    root.title("Змейка")
 
-canvas = Canvas(root, width=300, height=300, bg="black")
-canvas.pack()
+    canvas = Canvas(root, width=300, height=300, bg="black")
+    canvas.pack()
 
-game = SnakeGame(canvas)
+    game = SnakeGame(canvas)
 
-root.mainloop()
+    root.mainloop()
